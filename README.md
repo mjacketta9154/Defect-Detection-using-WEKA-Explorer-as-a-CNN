@@ -1,1 +1,3 @@
 # Defect-Detection-using-WEKA-Explorer-as-a-CNN
+
+Image segementation was done by using ImageJ the macro can be found in the imageJ foulder where it thresholds the image and changes the grayscale automaticly as well as having all the original images. In the WEKA folder the Trainable WEKA segmentation can be found where it is able to identify where defects may be present with a greater degree of accuracy. Then in the WEKA_ARFF file all the thresholded images can be found along with an arff file that can be used for WEKA deeplearning. Then ImageFilters are able to run CNN on the files. The one with the highest degree of accuracy is JPEGCoeffecient with the RandomTree classifier. 
